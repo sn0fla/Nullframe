@@ -1,4 +1,3 @@
-```markdown
 # Nullframe
 
 > A zero-injection, GPU-composited Windows overlay that renders **on top of fullscreen
@@ -20,21 +19,12 @@ latency the overlay adds.
 
 - [What it does](#what-it-does)
 - [How it draws over fullscreen apps](#how-it-draws-over-fullscreen-apps)
-  - [1. UIAccess — the thing that actually lets you sit above fullscreen](#1-uiaccess--the-thing-that-actually-lets-you-sit-above-fullscreen)
-  - [2. DirectComposition — the present path that survives fullscreen](#2-directcomposition--the-present-path-that-survives-fullscreen)
-  - [3. Layered, click-through, capture-excluded window](#3-layered-click-through-capture-excluded-window)
 - [Why it's better than other overlays](#why-its-better-than-other-overlays)
-  - [Comparison table](#comparison-table)
-  - [The specific reasons Nullframe wins](#the-specific-reasons-nullframe-wins)
 - [Rendering pipeline](#rendering-pipeline)
 - [Latency measurement](#latency-measurement)
 - [Window & composition flags](#window--composition-flags)
 - [Project layout](#project-layout)
-  - [Class overview](#class-overview)
 - [Building](#building)
-  - [CMake (recommended)](#cmake-recommended)
-  - [MSVC (Visual Studio)](#msvc-visual-studio)
-  - [Run](#run)
 - [Requirements](#requirements)
 - [Caveats](#caveats)
 - [License](#license)
